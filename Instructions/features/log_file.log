@@ -1,0 +1,8 @@
+I, [2019-12-10T14:20:50.671690 #42959]  INFO -- : In before Hooks triggering the browser
+I, [2019-12-10T14:20:56.784706 #42959]  INFO -- : Opened the browser with given URL
+I, [2019-12-10T14:20:56.785285 #42959]  INFO -- : Entered into upwork world
+I, [2019-12-10T14:20:56.786665 #42959]  INFO -- : Opened browser and started with the keywords search
+I, [2019-12-10T14:20:56.787030 #42959]  INFO -- : The search keyword is : DEV
+I, [2019-12-10T14:21:00.600589 #42959]  INFO -- : Clicked the search button
+I, [2019-12-10T14:21:00.619030 #42959]  INFO -- : In after Hooks checking if scenario is passed ot failed
+E, [2019-12-10T14:21:00.619128 #42959] ERROR -- : The scenario named #<Cucumber::Core::Test::Case:0x00007ff2e70fee70>is failed
