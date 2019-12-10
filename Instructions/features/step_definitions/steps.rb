@@ -7,7 +7,7 @@ require_relative('../support/debug_hooks.rb')
 require 'logger'
 
 driver = $driver
-$LOG = Logger.new('log_file.log', 'monthly')
+$LOG = Logger.new('../data/out/log_file.log', 'monthly')
 logger = $LOG
 
 When(/^I LogIn in Upwork$/) do

@@ -1,0 +1,7 @@
+# Logfile created on 2019-12-10 14:45:50 -0300 by logger.rb/56815
+I, [2019-12-10T14:45:53.861057 #43631]  INFO -- : Entered into upwork world
+I, [2019-12-10T14:45:53.862119 #43631]  INFO -- : Opened browser and started with the keywords search
+I, [2019-12-10T14:45:53.862369 #43631]  INFO -- : The search keyword is : QA
+I, [2019-12-10T14:51:13.623110 #43757]  INFO -- : Entered into upwork world
+I, [2019-12-10T14:51:13.624737 #43757]  INFO -- : Opened browser and started with the keywords search
+I, [2019-12-10T14:51:13.625145 #43757]  INFO -- : The search keyword is : QA

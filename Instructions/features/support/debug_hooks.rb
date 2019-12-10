@@ -6,7 +6,7 @@ require_relative('../support/debug_hooks.rb')
 
 
 $driver = Selenium::WebDriver.for  :chrome
-$LOG = Logger.new('log_file.log', 'monthly')
+$LOG = Logger.new('../data/out/log_file.log', 'monthly')
 logger = $LOG
 
 Before do |scenario|
