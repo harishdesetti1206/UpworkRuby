@@ -4,11 +4,13 @@ require 'selenium-webdriver'
 require 'yaml'
 require_relative('../support/debug_hooks.rb')
 
-
+# initiañizing the driver and log file
 $driver = Selenium::WebDriver.for  :chrome
 $LOG = Logger.new('../data/out/log_file.log', 'monthly')
 logger = $LOG
 
+
+# Triggering the URL before each scenario
 Before do |scenario|
   logger.info("In before Hooks triggering the browser")
   puts $driver
@@ -18,6 +20,7 @@ Before do |scenario|
   logger.info("Opened the browser with given URL")
 end
 
+#Checking if scenario is failed
 After do |scenario|
   logger.info("In after Hooks checking if scenario is passed ot failed")
   if scenario.failed?
