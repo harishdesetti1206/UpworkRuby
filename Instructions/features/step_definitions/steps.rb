@@ -2,8 +2,8 @@ require 'cucumber'
 require 'rubygems'
 require 'selenium-webdriver'
 require 'yaml'
-require 'logger'
 require_relative('../support/debug_hooks.rb')
+require 'logger'
 
 
 driver = $driver
