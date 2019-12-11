@@ -2,9 +2,9 @@ require 'cucumber'
 require 'rubygems'
 require 'selenium-webdriver'
 require 'yaml'
-
-require_relative('../support/debug_hooks.rb')
 require 'logger'
+require_relative('../support/debug_hooks.rb')
+
 
 driver = $driver
 $LOG = Logger.new('../data/out/log_file.log', 'monthly')
