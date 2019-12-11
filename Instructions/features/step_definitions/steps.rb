@@ -29,7 +29,7 @@ Then(/^I click on search button$/) do
 end
 
 Then(/^I search through all profile and compare a random profile in and out$/) do
-  int row_count_on_page = driver.select_list(:xpath => "//section[@id='oContractorResults']/div/div/section").options.count
+  int row_count_on_page = driver.find_elements(:xpath => "//section[@id='oContractorResults']/div/div/section").length
   logger.info("The total number of search results are "+row_count_on_page.to_s)
   freeLancer_details = Hash.new
   int searchResultsCount = 1

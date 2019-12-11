@@ -4,7 +4,7 @@ require 'selenium-webdriver'
 require 'yaml'
 require_relative('../support/debug_hooks.rb')
 
-# initiañizing the driver and log file
+# initializing the driver and log file
 $driver = Selenium::WebDriver.for  :chrome
 $LOG = Logger.new('../data/out/log_file.log', 'monthly')
 logger = $LOG
